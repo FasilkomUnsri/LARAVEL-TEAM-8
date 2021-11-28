@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Barang;
-use App\Models\Pesanan;
-use App\Models\User;
-use App\Models\PesananDetail;
+use App\Barang;
+use App\Pesanan;
+use App\User;
+use App\PesananDetail;
 use Auth;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
